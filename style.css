@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.test1 {
+    text-align: center;
+    color: #111;
+    font-family: Anton, sans-serif;
+}
+.Title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Anton, sans-serif;
+    color: darkgreen;
+    text-align: center;
+}
+.img1 { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    border-style: solid 1px;
+    border-radius: 50px;
+    transition: 2s;
+}   
+.img1:hover {
+    border-radius: 0px; 
+    transition: 2s;
+}
+.button1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: 1px solid;
+    border-width: 5px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: blue;
+    transition: 1s;
+    height: 120px;
+    width: 300px;
+    font-family: Anton, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.button1:hover {
+    transition: 1s;
+    height: 144px;
+    width: 360px;
+    font-size: 20px;
+}
+
+.button2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: 1px solid;
+    border-width: 5px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: red;
+    transition: 1s;
+    height: 120px;
+    width: 300px;
+    font-family: Anton, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.button2:hover {
+    transition: 1s;
+    height: 144px;
+    width: 360px;
+    font-size: 20px;
+}
