@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.container-all {
+    background-color: #2a2b2b;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.mini-title {
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Scada', sans-serif;
+}
+
+.description {
+    color: white;
+    font-family: 'Anaheim', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 200px;
+}
+.j1-lf {
+   color: white;
+   font-family: 'Scada', sans-serif;
+   font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.pic_j1_lf {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.snkrs-details {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-family: 'Anaheim', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 200px;
+    font-display: justify;
+}
