@@ -66,13 +66,16 @@
     font-display: justify;
 }
 
-.menu-reveal {
-    
+.menu-button {
+    background-color: none;
+    width: 100px;
+    height: 100px;
 }
 .menu-container {
     color: white;
     transition: 1s;
     list-style-type: square;
+    display: none;
 }
 
 .menu-items {
@@ -82,5 +85,5 @@
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
     font-size: 40px;
-    display: none;
+    display: inline;
 }
