@@ -5,7 +5,7 @@ let number_clicks = 0;
 menu.addEventListener('click', function onClick() {
 
 if (number_clicks == 0) {
-    menu_items.style.display = 'inline';
+    menu_items.style.display = 'inline-block';
     number_clicks += 1;
 } else if (number_clicks >= 1){
     menu_items.style.display = 'none';
