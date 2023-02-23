@@ -16,6 +16,7 @@ let dx = 10;
 let dy = 0;
 let directionchange = false;
 let start = document.getElementById("start");
+let result_text = document.getElementById("result_text");
 let checker = 0;
 let food_x;
 let food_y;
@@ -24,6 +25,7 @@ let buttonClicked = false;
 const snakeboard = document.getElementById("canvas");
 const snakeboard_ctx = snakeboard.getContext("2d");
 
+//result_text.innerHTML = "You lose. You're score: " + score;
 //gyorsul ha sokszor megnyomod /to be fixed
 
 if(buttonClicked === false){
