@@ -19,14 +19,21 @@ let start = document.getElementById("start");
 let checker = 0;
 let food_x;
 let food_y;
+let buttonClicked = false;
 
 const snakeboard = document.getElementById("canvas");
 const snakeboard_ctx = snakeboard.getContext("2d");
 
 //gyorsul ha sokszor megnyomod /to be fixed
-//start.addEventListener('click', main, gen_food);
-main();
 
+if(buttonClicked === false){
+    start.addEventListener('click', main)
+    //még mindig gyorsul nem értem miért majd meg kell kérdezni Bencét
+    start.removeEventListener('click', main);
+    console.log("Already pressed");
+}
+
+start.addEventListener('click', main);
 gen_food();
 
 document.addEventListener('keydown', controls);
@@ -82,6 +89,7 @@ function has_game_ended()
     
     return hitLeftWall || hitRightWall || hitTopWall || hitBottomWall
 }
+
 function random_food(min, max)
 {
     return Math.round((Math.random() * (max-min) + min) / 10) * 10; 
@@ -141,6 +149,7 @@ function controls(event)
         dy = 10;
     }
 }
+
 function movement() 
 {
     const head = {x: snake[0].x + dx, y: snake[0].y + dy};
