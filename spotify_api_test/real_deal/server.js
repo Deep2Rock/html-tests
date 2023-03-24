@@ -8,3 +8,6 @@ http
         response.end();
     })
     .listen(8888);
+
+//API nem értem, hogy működik
+//mostmár működik a node app.js
